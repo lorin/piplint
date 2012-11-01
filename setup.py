@@ -11,7 +11,6 @@ setup(
     author_email="dcramer@gmail.com",
     url="https://github.com/dcramer/piplint",
     packages=["piplint"],
-    package_dir={'': 'src'},
     entry_points={
         'console_scripts': [
             'piplint = piplint:main',
